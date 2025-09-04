@@ -1,0 +1,88 @@
+---------------- Environment Info ----------------
+CUDA Version: nvcc: NVIDIA (R) Cuda compiler driver
+Copyright (c) 2005-2023 NVIDIA Corporation
+Built on Tue_Aug_15_22:02:13_PDT_2023
+Cuda compilation tools, release 12.2, V12.2.140
+Build cuda_12.2.r12.2/compiler.33191640_0
+Python Version: Python 3.12.4
+GPU Device: GPU 0: NVIDIA H100 80GB HBM3 (UUID: GPU-21a64ec4-926d-6fd7-2e42-f9287c19cf02)
+Model forward phase: train
+Using dataset: new_dataset
+Using model: DCON
+training configuration
+batchsize: 10
+coordinate sampling frequency: 3
+learning rate: 0.0001
+BC weight 10
+Number of PDE points: 920
+Best L2 relative error: 1.00052011013031
+x-direction prescribed displacement loss inf
+y-direction prescribed displacement loss: inf
+hole prescribed displacement loss inf
+free boundary condtion loss: inf
+x-direction PDE residual loss: inf
+y-direction PDE residual loss: inf
+Best L2 relative error: 1.4656620025634766
+x-direction prescribed displacement loss 3.95805844672914e-05
+y-direction prescribed displacement loss: 1.187510956569826e-05
+hole prescribed displacement loss 5.965130265322971e-06
+free boundary condtion loss: 1238.3627240146416
+x-direction PDE residual loss: 99.02797750780769
+y-direction PDE residual loss: 193.59768858333587
+Best L2 relative error: 1.6278406381607056
+x-direction prescribed displacement loss 4.0956306923273234e-05
+y-direction prescribed displacement loss: 1.1907508100240938e-05
+hole prescribed displacement loss 7.140274574962691e-06
+free boundary condtion loss: 430824.7918119293
+x-direction PDE residual loss: 48874.140659160104
+y-direction PDE residual loss: 68726.37137384267
+Best L2 relative error: 1.3346532583236694
+x-direction prescribed displacement loss 3.708887405087791e-05
+y-direction prescribed displacement loss: 1.1268156013696795e-05
+hole prescribed displacement loss 7.510907227781249e-06
+free boundary condtion loss: 688.4619653974078
+x-direction PDE residual loss: 109.65161291844561
+y-direction PDE residual loss: 147.73900810794294
+Best L2 relative error: 1.4309786558151245
+x-direction prescribed displacement loss 4.045284179055031e-05
+y-direction prescribed displacement loss: 1.1609060498532497e-05
+hole prescribed displacement loss 5.747048853574355e-06
+free boundary condtion loss: 13.760264124417517
+x-direction PDE residual loss: 1.7765262720002397
+y-direction PDE residual loss: 2.350378180653763
+Best L2 relative error: 1.5431654453277588
+x-direction prescribed displacement loss 3.906336691819612e-05
+y-direction prescribed displacement loss: 1.1673027669512753e-05
+hole prescribed displacement loss 7.697697069403153e-06
+free boundary condtion loss: 133090.21854231643
+x-direction PDE residual loss: 41995.441461044735
+y-direction PDE residual loss: 47080.984811241266
+Best L2 relative error: 1.5201771259307861
+x-direction prescribed displacement loss 3.8765568499604663e-05
+y-direction prescribed displacement loss: 1.156164520135089e-05
+hole prescribed displacement loss 6.620125173772973e-06
+free boundary condtion loss: 265.5964068802714
+x-direction PDE residual loss: 39.99857678646549
+y-direction PDE residual loss: 40.175047726823095
+Best L2 relative error: 1.153338074684143
+x-direction prescribed displacement loss 4.48458192610357e-05
+y-direction prescribed displacement loss: 1.1800333428770016e-05
+hole prescribed displacement loss 3.687245298630848e-06
+free boundary condtion loss: 1.3269695230921457
+x-direction PDE residual loss: 0.2501050158066036
+y-direction PDE residual loss: 0.1691828375204949
+Best L2 relative error: 1.6068010330200195
+x-direction prescribed displacement loss 3.9418074421537774e-05
+y-direction prescribed displacement loss: 1.180632735479914e-05
+hole prescribed displacement loss 8.17118580706197e-06
+free boundary condtion loss: 687509.0350016975
+x-direction PDE residual loss: 344129.08201651357
+y-direction PDE residual loss: 49618.207481530626
+Best L2 relative error: 1.2684829235076904
+x-direction prescribed displacement loss 3.68983255973343e-05
+y-direction prescribed displacement loss: 1.1436717841227517e-05
+hole prescribed displacement loss 7.485038376248143e-06
+free boundary condtion loss: 330.9015220707515
+x-direction PDE residual loss: 125.07717966196651
+y-direction PDE residual loss: 67.66497310535487
+Best L2 relative error on test loader: 0.872766786813736
